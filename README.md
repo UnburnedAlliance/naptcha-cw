@@ -8,3 +8,9 @@ The API server will use cardano-wallet-js to interact with it.
 - There may be CORS related issues.
 - Need a one-liner for confirming the ip and port (scanner?)
 - Still looking for the framework / method that lists assets given a wallet address.
+
+
+## SETUP: 
+1. nvm use 18.12.1
+2. NETWORK=mainnet docker-compose up
+3. PORT= , IP=
