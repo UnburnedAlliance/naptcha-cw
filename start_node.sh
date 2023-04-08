@@ -1,3 +1,4 @@
 #!/bin/bash
 # A simple script
-NETWORK=mainnet docker-compose up
+nvm use 18.12.1
+NETWORK=mainnet docker-compose up | grep ChainDB
