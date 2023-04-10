@@ -12,5 +12,5 @@ The API server will use cardano-wallet-js to interact with it.
 
 ## SETUP: 
 1. nvm use 18.12.1
-2. NETWORK=mainnet docker-compose up
-3. PORT= , IP=
+2. NETWORK=mainnet docker-compose up | grep ChainDB
+3. PORT=127.0.0.1 , IP=8090
