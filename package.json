@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1", 
     "start": "bash start_node.sh", 
-    "ada_docker": "bash start_docker.sh", 
-    "ada_server": "bash start_node.sh"
+    "docker": "sudo bash start_docker.sh", 
+    "wallet": "sudo bash start_node.sh"
   },
   "repository": {
     "type": "git",
